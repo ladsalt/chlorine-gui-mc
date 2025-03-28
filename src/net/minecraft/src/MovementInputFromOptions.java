@@ -36,10 +36,6 @@ public class MovementInputFromOptions extends MovementInput {
 			var3 = 5;
 		}
 
-		if(var1 == 50) {
-			bedrockclientnofilter = !bedrockclientnofilter;
-		}
-
 		if(var3 >= 0) {
 			this.movementKeyStates[var3] = var2;
 		}
